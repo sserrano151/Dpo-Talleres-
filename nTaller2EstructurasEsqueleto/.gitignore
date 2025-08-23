@@ -1,0 +1,16 @@
+
+/bin/
+/out/
+/target/
+*.class
+
+
+__MACOSX/
+**/.DS_Store
+**/._*
+
+
+.settings/
+.vscode/
+.idea/
+*.iml
