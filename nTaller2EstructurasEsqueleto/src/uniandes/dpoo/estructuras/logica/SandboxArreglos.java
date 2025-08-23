@@ -191,6 +191,9 @@ public class SandboxArreglos
      */
     public void reiniciarArregloEnteros( double[] valores ) 
     {
+    	if (valores == null) { arregloEnteros = new int[]{}; return; }
+        arregloEnteros = new int[ valores.length ];
+        for (int i = 0; i < valores.length; i++) arregloEnteros[i] = (int) valores[i];
 
     }
 
